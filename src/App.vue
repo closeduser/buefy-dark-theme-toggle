@@ -65,7 +65,6 @@ function changeTheme() {
         </b-navbar-item>
       </b-navbar-dropdown>
     </template>
-
     <template #end>
       <b-navbar-item tag="div" style="display: flex;">
         <b-switch class="pulsing" size="is-medium" type='is-info' @click="changeTheme">
@@ -92,7 +91,6 @@ function changeTheme() {
         <TheWelcome />
       </main>
     </div>
-
   </div>
 
   <div class="buttons">
